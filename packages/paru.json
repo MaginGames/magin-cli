@@ -1,0 +1,10 @@
+{
+    "name": "paru",
+    "description": "Paru is a package manager for Arch Linux.",
+    "run": [
+        "cd",
+        "git clone https://aur.archlinux.org/paru.git",
+        "cd paru",
+        "makepkg -si"
+    ]
+}
