@@ -2,9 +2,9 @@
     "name": "paru",
     "description": "Paru is a package manager for Arch Linux.",
     "run": [
-        ["cd", "$HOME"],
-        ["git", "clone", "https://aur.archlinux.org/paru.git"],
-        ["cd", "paru"],
-        ["makepkg", "-si"]
+        "cd $HOME",
+        "git clone https://aur.archlinux.org/paru.git",
+        "cd paru",
+        "makepkg -si"
     ]
 }
